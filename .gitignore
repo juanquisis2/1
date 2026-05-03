@@ -1,0 +1,17 @@
+# Database output (generated at runtime)
+*.db
+*.db-shm
+*.db-wal
+
+# Log files (generated at runtime)
+scraper.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
