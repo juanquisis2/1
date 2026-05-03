@@ -88,7 +88,7 @@ All settings are at the top of `scraper.py`:
 | Variable                | Default | Description                                  |
 |-------------------------|---------|----------------------------------------------|
 | `RESULTS_PER_PAGE`      | 20      | Items per page (Koha default)                |
-| `DELAY_BETWEEN_REQUESTS`| 1.0 s   | Polite crawl delay between pages             |
+| `DEFAULT_DELAY`         | 1.0 s   | Polite crawl delay between pages             |
 | `MAX_RETRIES`           | 5       | Retry attempts per page on network error     |
 | `RETRY_BACKOFF`         | 5 s     | Base back-off between retries                |
-| `DB_FILE`               | `biblioteca_wiener.db` | SQLite output file          |
+| `DEFAULT_DB`            | `biblioteca_wiener.db` | SQLite output file          |
